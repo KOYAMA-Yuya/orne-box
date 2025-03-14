@@ -21,14 +21,10 @@ laser_model_type: likelihood_field # レーザセンサーモデルのタイプ�
 laser_likelihood_max_dist: 2.0     # レーザの最大有効範囲（メートル単位）。
 update_min_d: 0.2                  # 最小移動距離でAMCLを更新（メートル単位）。
 update_min_a: 0.5                  # 最小回転角度でAMCLを更新（ラジアン単位）。
-odom_frame_id: odom               # オドメトリ座標フレームのID。
-resample_interval: 1              # リサンプリングの間隔（ステップ数）。
+odom_frame_id: odom                # オドメトリ座標フレームのID。
+resample_interval: 1               # リサンプリングの間隔（ステップ数）。
 transform_tolerance: 0.1
-recovery_alpha_slow: 0.0          # スローリカバリ率の初期値。
-recovery_alpha_fast: 0.0          # ファストリカバリ率の初期値。
+recovery_alpha_slow: 0.0           # スローリカバリ率の初期値。
+recovery_alpha_fast: 0.0           # ファストリカバリ率の初期値。
 
-reset_th_alpha: 0.003             # 回転に関するリセット閾値（ラジアン単位）。
-
-
-
-
+reset_th_alpha: 0.003              # 回転に関するリセット閾値（ラジアン単位）。

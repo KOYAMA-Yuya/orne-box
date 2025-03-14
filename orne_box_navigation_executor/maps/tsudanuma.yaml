@@ -2,5 +2,5 @@ image: tsudanuma.png
 resolution: 0.0893
 origin: [-100.000000, -172.000000, 0.000000]
 negate: 0
-occupied_thresh: 0.4
+occupied_thresh: 0.3
 free_thresh: 0.196
